@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Note 2"
             }
+          },
+          {
+            "id": "9783cf84b62ac85b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note 3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note 2.md",
+                "file": "Note 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Note 2"
+              "title": "Backlinks for Note 3"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note 2.md",
+                "file": "Note 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Note 2"
+              "title": "Outgoing links from Note 3"
             }
           },
           {
@@ -171,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note 2.md",
+                "file": "Note 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Note 2"
+              "title": "Outline of Note 3"
             }
           }
         ]
@@ -199,10 +213,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "703ee71bc994d976",
+  "active": "9783cf84b62ac85b",
   "lastOpenFiles": [
-    "Welcome.md",
     "Note 2.md",
+    "Note 3.md",
+    "Welcome.md",
     "cublog/README.md",
     "README.md",
     "cublog"
