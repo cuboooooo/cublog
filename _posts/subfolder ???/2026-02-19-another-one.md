@@ -7,8 +7,8 @@ tags: []
 ---
 
 
-[NEW NOTE](/published/subfolder ???/new-note/)
+[NEW NOTE](/subfolder ???/new-note/)
 oh yeah take that
 
-[NEW NOTE](/published/subfolder ???/new-note/)
+[NEW NOTE](/subfolder ???/new-note/)
 no alias!!

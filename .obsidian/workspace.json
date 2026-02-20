@@ -32,12 +32,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/2026-02-19-this-is-a-note.md",
+                    "file": "_posts/subfolder ???/2026-02-19-another-one.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "2026-02-19-this-is-a-note"
+                  "title": "2026-02-19-another-one"
                 }
               }
             ],
@@ -260,13 +260,13 @@
   },
   "active": "635a2d71c3177056",
   "lastOpenFiles": [
+    "scripts/obsidian_to_jekyll.py",
+    "_posts/2026-02-19-this-is-a-note.md",
     "_posts/subfolder ???/2026-02-19-new-note.md",
     "_posts/subfolder ???/2026-02-19-another-one.md",
-    "_posts/2026-02-19-this-is-a-note.md",
     "_posts/This is a note!.md",
     "_posts/subfolder ???/NEW NOTE.md",
     "_posts/subfolder ???/ANOTHER ONE??.md",
-    "scripts/obsidian_to_jekyll.py",
     "_config.yml",
     "index.md",
     "README.md",

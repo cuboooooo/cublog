@@ -53,6 +53,14 @@ def replace_wikilink(match):
     alias = match.group(2)
 
     path = Path(file)
+    # removed published/
+    parts = list(path.parts)
+    if parts and parts[0] == "published":
+        parts = parts[1:]
+    
+    path = Path(*parts)
+
+
     slug = slugify(path.stem)
     categories = path.parent.as_posix() # stack overflow save me
 
