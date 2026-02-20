@@ -78,6 +78,7 @@ def replace_image(match):
 
 def iso_to_date(iso_string):
     if not iso_string:
+        print("::error:: DATE NOT CREATED PROPERLY")
         return datetime.today().strftime("%Y-%m-%d")
     return iso_string[:10]
 

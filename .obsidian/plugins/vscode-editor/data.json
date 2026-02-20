@@ -14,7 +14,9 @@
     "cs",
     "yml",
     "scss",
-    "html"
+    "html",
+    "",
+    "Gemfile"
   ],
   "folding": true,
   "lineNumbers": true,
