@@ -12,7 +12,9 @@
     "lua",
     "php",
     "cs",
-    "yml"
+    "yml",
+    "scss",
+    "html"
   ],
   "folding": true,
   "lineNumbers": true,
@@ -20,7 +22,7 @@
   "minimap": true,
   "semanticValidation": true,
   "syntaxValidation": true,
-  "themeColor": "AUTO",
+  "themeColor": "DARK",
   "fontSize": 14,
   "fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
   "fontLigatures": true
