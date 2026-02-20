@@ -7,7 +7,6 @@ we HAVE to keep index (and tags and categories) at the root. not in published. i
 
 you need to ujpdate the Gemfile every time you wanna add a new plugin i guess
 
-
 ## Todo:
 * MOST IMPORTANT !!! CREATE SUBFOLDER INDEXES
 	* allegedly MM is supposed to do that for me with the categories page, but it isnt. CLicking on Subfolder in NewNote goes to 404. Either in python create an archive index.md for each new subdir, or get MM working

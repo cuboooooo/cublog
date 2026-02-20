@@ -44,12 +44,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Welcome.md",
+                    "file": "Gemfile",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "Welcome"
+                  "title": "Gemfile"
                 }
               },
               {
@@ -284,9 +284,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3a52283e0942e8ae",
+  "active": "e25ef813219f9008",
   "lastOpenFiles": [
     "Gemfile",
+    "Welcome.md",
     "_posts/subfolder/2026-02-20-new-note.md",
     "_posts/subfolder/2026-02-20-another-one.md",
     "_posts/code/2026-02-20-just-a-dracula-test.md",
@@ -302,7 +303,6 @@
     "published/code",
     "index.md",
     "categories.md",
-    "Welcome.md",
     "scripts/obsidian_to_jekyll.py",
     "_layouts/single.html",
     "vault/this is a WIP.md",
@@ -312,7 +312,6 @@
     "_posts/subfolder/2026-02-19-another-one.md",
     "tags.md",
     "assets/css",
-    "_layouts/post.html",
     "_posts/This is a note!.md",
     "_posts/subfolder ???/NEW NOTE.md",
     "_posts/subfolder ???/ANOTHER ONE??.md",
