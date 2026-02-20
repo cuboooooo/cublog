@@ -1,5 +1,7 @@
 [
   "github-sync",
+  "terminal",
   "custom-file-viewer",
-  "terminal"
+  "vscode-editor",
+  "obsidian-custom-file-extensions-plugin"
 ]

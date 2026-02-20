@@ -1,0 +1,19 @@
+title: My Blog  
+description: My thoughts and projects  
+theme: minima  
+
+url: "https://blog.mlhost.org"
+baseurl: ""
+
+markdown: kramdown  
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:  
+- jekyll-feed  
+- jekyll-seo-tag
+- jekyll-last-modified-at
+
+collections:
+	vault:
+	# truthfully idk what this is doing.
+			output: false
