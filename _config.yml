@@ -6,7 +6,7 @@ url: "https://blog.mlhost.org"
 baseurl: ""
 
 markdown: kramdown  
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:title/
 
 plugins:  
 - jekyll-seo-tag

@@ -49,37 +49,30 @@ def replace_wikilink(match):
     #Got: [published/This is a note!|This is a note!](/published/this-is-a-note!|this-is-a-note!)
     #Expected: [This is a note!](/this-is-a-note!)
 
-    file = match.group(1) # published/This is a note!
-    # we don't want the published/ in the final file
+    file = match.group(1)
     alias = match.group(2)
+
+    path = Path(file)
+    slug = slugify(path.stem)
+    categories = path.parent.as_posix() # stack overflow save me
+
+    if categories == ".":
+        url = f"/{slug}/"
+    else:
+        url = f"/{categories}/{slug}/"
+
     display = alias if alias else Path(file).stem
     slug = slugify(Path(file).stem)
-    return f"[{display}](/{slug})"
+    return f"[{display}]({url})"
 
 def replace_image(match):
     image = match.group(1)
     return f"![{image}](/assets/{image})"
 
-def add_frontmatter(content, filepath):
-    first_commit = get_first_commit_date(filepath)
-    last_commit = get_last_commit_date(filepath)
-    title = Path(filepath).stem
-
-    if not first_commit: # if somehow everything breaks.
-        first_commit: datetime.today().strftime("%Y-%m-%d")
-    if not last_commit:
-        last_commit = first_commit
-
-    return f"""---
-layout: post
-title: "{title}"
-date: {first_commit}
-last_modified_at: {last_commit}
-tags: []
----
-
-{content}
-"""
+def iso_to_date(iso_string):
+    if not iso_string:
+        return datetime.today().strftime("%Y-%m-%d")
+    return iso_string[:10]
 
 def convert_file(filepath):
     # ok so filepath will be from root all the way to 
@@ -91,18 +84,39 @@ def convert_file(filepath):
     # very similar, [[MATCH1|OPTIONALMATCH2]]
     content = re.sub(r"\[\[([^|\]]+)(?:\|([^\]]+))?\]\]"
 , replace_wikilink, content) # if a link doesnt have a | i might be screwed.
+    first_commit = get_first_commit_date(filepath)
+    last_commit = get_last_commit_date(filepath)
+    publish_date = iso_to_date(first_commit)
+    modified_date = iso_to_date(last_commit)
+    title = Path(filepath).stem
+    slug = slugify(title)
 
-    content = add_frontmatter(content,filepath)
-    
+    # add frontmatter
+    content = f"""---
+layout: post
+title: "{title}"
+date: {publish_date}
+last_modified_at: {modified_date}
+tags: []
+---
 
-    # generate output path
-    # filepath is {PUBLISH_DIR}/possible_subfolders/FILE
-    # just replace publish dir duh
-    output_filepath = filepath.replace(PUBLISHED_DIR, POSTS_DIR)
+{content}
+"""
+    # apparently youre supposed to go like
+    # blog.com/YYYY/MM/DD/title
+    # i HATE that so we are NOT doing that lmao.
+
+    #output_filepath = filepath.replace(PUBLISHED_DIR, POSTS_DIR)
+
+    relative_path = Path(filepath).relative_to(PUBLISHED_DIR)
+    parent_dirs = relative_path.parent
+    filename = relative_path.stem + ".md"
+
+    # prepend date for jekyll UGH i hate it 
+    dated_filename = f"{publish_date}-{slug}.md"
+    output_filepath = Path(POSTS_DIR) / parent_dirs / dated_filename
+
     # since were allowing subfolders, create the proper structure first
-
-
-
     Path(output_filepath).parent.mkdir(parents=True, exist_ok=True)
     with open(output_filepath, "w") as f:
         f.write(content)
