@@ -1,6 +1,5 @@
 title: My Blog  
 description: My thoughts and projects  
-#theme: minima  
 remote_theme: mmistakes/minimal-mistakes
 
 ### MINIMAL MISTAKES STUFF
@@ -30,6 +29,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 plugins:  
+- jekyll-remote-theme
 - jekyll-include-cache
 - jekyll-seo-tag
 - jekyll-last-modified-at
