@@ -13,7 +13,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-last-modified-at
 
+# truthfully idk what this is doing.
 collections:
-	vault:
-	# truthfully idk what this is doing.
-			output: false
+  vault:
+    output: false
