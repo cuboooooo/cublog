@@ -66,7 +66,7 @@ def replace_wikilink(match):
     if parent == Path("."):
         url = f"/{slug}/"
     else:
-        categories = parent.as_posix() # stackoverflow what is a posix
+        categories = "/".join(slugify(p) for p in parent.parts) # add each slugged directory
         url = f"/{categories}/{slug}/"
 
     display = alias if alias else cleaned_path.stem
@@ -100,21 +100,7 @@ def convert_file(filepath):
     title = Path(filepath).stem
     slug = slugify(title)
 
-    # add frontmatter
-    # {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }}
-    # possible to add date.
-
-    content = f"""---
-layout: single
-title: "{title}"
-date: {publish_date}
-tags: []
-show_date: true
-show_last_modified_at: true
----
-
-{content}
-"""
+    
     # apparently youre supposed to go like
     # blog.com/YYYY/MM/DD/title
     # i HATE that so we are NOT doing that lmao.
@@ -123,6 +109,26 @@ show_last_modified_at: true
 
     relative_path = Path(filepath).relative_to(PUBLISHED_DIR)
     parent_dirs = relative_path.parent
+    if parent_dirs == Path("."):
+        categories_yaml = ""
+    else:
+        categories_list = [slugify(p) for p in parent_dirs.parts]
+        categories_yaml = f"categories: {categories_list}"
+
+    # add frontmatter
+    content = f"""---
+layout: single
+title: "{title}"
+date: {publish_date}
+{categories_yaml}
+tags: []
+show_date: true
+show_last_modified_at: true
+---
+
+{content}
+"""
+
     filename = relative_path.stem + ".md"
 
     # prepend date for jekyll UGH i hate it 
