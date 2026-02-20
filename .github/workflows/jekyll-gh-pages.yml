@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # this lets us use git history in our py script below.
       - name: Setup Pages
         uses: actions/configure-pages@v5
         # man idk what im doing
