@@ -38,3 +38,14 @@ and minimal mistakes automatically loads that i guess.
 
 minimal mistakes actually has a LOT to offer.
 splash landing pages, archive layouts,
+
+
+put this in layouts single maybe 
+```html
+{% if page.last_modified_at %}  
+<p class="page__meta">  
+Updated {{ page.last_modified_at | date: "%B %-d, %Y" }}  
+</p>  
+{% endif %}
+```
+yeah idk
