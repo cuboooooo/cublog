@@ -9,4 +9,5 @@ we CAN set other homes tho i think maybe
 * remove published, keep everything in vault/
 	* add publish: true to metadata.
 * add lunr.js for search, or ANY other plugin.
+	* https://github.com/christian-fei/Simple-Jekyll-Search
 * add Edited dates to files somehow?
