@@ -34,6 +34,9 @@ plugins:
 - jekyll-seo-tag
 - jekyll-last-modified-at
 
+last-modified-at:
+  date-format: '%B %-d, %Y'
+
 # truthfully idk what this is doing.
 collections:
   vault:

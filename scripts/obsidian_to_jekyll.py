@@ -108,7 +108,7 @@ def convert_file(filepath):
 layout: single
 title: "{title}"
 date: {publish_date}
-last_modified_at: {{ page.last_modified_at }}
+last_modified_at: {{ page.last_modified_at | date: "%B %-d, %Y"}}
 tags: []
 ---
 
