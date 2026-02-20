@@ -44,10 +44,10 @@
                 "state": {
                   "type": "vscode-editor",
                   "state": {
-                    "file": "assets/css/main.scss"
+                    "file": "_config.yml"
                   },
                   "icon": "lucide-file",
-                  "title": "main"
+                  "title": "_config"
                 }
               },
               {
@@ -284,8 +284,8 @@
   },
   "active": "3a52283e0942e8ae",
   "lastOpenFiles": [
-    "assets/css/_custom.scss",
     "assets/css/main.scss",
+    "assets/css/_custom.scss",
     "_config.yml",
     "assets/css/custom.scss",
     "published/code/just a dracula test.md",

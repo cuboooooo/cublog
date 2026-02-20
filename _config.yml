@@ -7,7 +7,7 @@ remote_theme: mmistakes/minimal-mistakes
 
 minimal_mistakes_skin: neon
 sass:
-	style: compressed
+  style: compressed
 
 search: true
 breadcrumbs: true
