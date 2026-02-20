@@ -2,6 +2,8 @@
    Neon skin
    ========================================================================== */
 
+/* Modified to Dracula by Cubo */
+
 /* Colors */
 $background-color: #282a36 !default;
 $text-color: #f8f8f2 !default;
@@ -23,22 +25,22 @@ $notice-background-mix: 90% !default;
 $code-notice-background-mix: 95% !default;
 
 /* neon syntax highlighting (base16) (for code!) */
-$base00: #282936 !default;
-$base01: #3a3c4e !default;
-$base02: #4d4f68 !default;
-$base03: #626483 !default;
-$base04: #62d6e8 !default;
-$base05: #e9e9f4 !default;
-$base06: #f1f2f8 !default;
-$base07: #f7f7fb !default;
-$base08: #ea51b2 !default;
-$base09: #b45bcf !default;
-$base0a: #00f769 !default;
-$base0b: #ebff87 !default;
-$base0c: #a1efe4 !default;
-$base0d: #62d6e8 !default;
-$base0e: #b45bcf !default;
-$base0f: #00f769 !default;
+$base00: #282a36 !default;/* background */
+$base01: #3a3c4e !default;/* highlight */
+$base02: #4d4f68 !default;/* selection */
+$base03: #626483 !default;/* comments */
+$base04: #62d6e8 !default;/* darker foreground */
+$base05: #e9e9f4 !default;/* foreground */
+$base06: #f1f2f8 !default;/* lighter foreground */
+$base07: #f7f7fb !default;/* lightest background */
+$base08: #ea51b2 !default;/* variables(red) */
+$base09: #b45bcf !default;/* int/bool(orange) */
+$base0a: #00f769 !default;/* class(yellow) */
+$base0b: #ebff87 !default;/* string(green) */
+$base0c: #a1efe4 !default;/* escape(cyan) */
+$base0d: #62d6e8 !default;/* func (blue) */
+$base0e: #b45bcf !default;/* keywords(purple) */
+$base0f: #00f769 !default;/* deprecated (brown) */
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,

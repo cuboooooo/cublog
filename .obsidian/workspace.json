@@ -44,10 +44,10 @@
                 "state": {
                   "type": "vscode-editor",
                   "state": {
-                    "file": "assets/css/custom.scss"
+                    "file": "assets/css/main.scss"
                   },
                   "icon": "lucide-file",
-                  "title": "custom"
+                  "title": "main"
                 }
               },
               {
@@ -284,11 +284,15 @@
   },
   "active": "3a52283e0942e8ae",
   "lastOpenFiles": [
+    "assets/css/_custom.scss",
+    "assets/css/main.scss",
     "_config.yml",
-    "published/code/just a dracula test.md",
     "assets/css/custom.scss",
-    "published/code",
+    "published/code/just a dracula test.md",
+    "published/subfolder ???/NEW NOTE.md",
     "published/subfolder ???/ANOTHER ONE??.md",
+    "published/This is a note!.md",
+    "published/code",
     "index.md",
     "categories.md",
     "Welcome.md",
@@ -300,7 +304,6 @@
     "_posts/subfolder ???/2026-02-19-new-note.md",
     "_posts/subfolder ???/2026-02-19-another-one.md",
     "tags.md",
-    "published/subfolder ???/NEW NOTE.md",
     "assets/css",
     "_layouts/post.html",
     "_posts/This is a note!.md",
@@ -311,11 +314,9 @@
     "_posts/2026-02-19-test1.md",
     "_posts/2026-02-19-test 2.md",
     "this-is-a-note!.md",
-    "published/This is a note!.md",
     "published/this-is-a-note!|this-is-a-note!.md",
     "_posts/subfolder ???",
     "published/subfolder ???",
-    "scripts",
     "Note 2.md",
     "Note 3.md",
     "assets/image.jpg",
