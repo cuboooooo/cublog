@@ -58,19 +58,18 @@ def replace_wikilink(match):
     if parts and parts[0] == "published":
         parts = parts[1:]
     
-    path = Path(*parts)
+    cleaned_path = Path(*parts)
 
+    slug = slugify(cleaned_path.stem)
 
-    slug = slugify(path.stem)
-    categories = path.parent.as_posix() # stack overflow save me
-
-    if categories == ".":
+    parent = cleaned_path.parent
+    if parent == Path("."):
         url = f"/{slug}/"
     else:
+        categories = parent.as_posix() # stackoverflow what is a posix
         url = f"/{categories}/{slug}/"
 
-    display = alias if alias else Path(file).stem
-    slug = slugify(Path(file).stem)
+    display = alias if alias else cleaned_path.stem
     return f"[{display}]({url})"
 
 def replace_image(match):
@@ -108,6 +107,7 @@ def convert_file(filepath):
 layout: single
 title: "{title}"
 date: {publish_date}
+last_modified_at: {{ page.last_modified_at | date: '%B %d, %Y'}}
 tags: []
 ---
 

@@ -3,9 +3,25 @@ description: My thoughts and projects
 #theme: minima  
 remote_theme: mmistakes/minimal-mistakes
 
-minimal-mistakes-skin: neon
+### MINIMAL MISTAKES STUFF
+
+minimal_mistakes_skin: neon
+#sass:
+#	style: compressed
+
 search: true
 breadcrumbs: true
+
+author:
+  name: Micah Lundquist
+  bio: man idek
+  location: Earth
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/cuboooooo
+
+### END MINIMAL MISTAKES
 
 url: "https://blog.mlhost.org"
 baseurl: ""
