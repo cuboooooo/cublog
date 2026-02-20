@@ -42,12 +42,14 @@
                 "id": "3a52283e0942e8ae",
                 "type": "leaf",
                 "state": {
-                  "type": "vscode-editor",
+                  "type": "markdown",
                   "state": {
-                    "file": "scripts/obsidian_to_jekyll.py"
+                    "file": "Welcome.md",
+                    "mode": "source",
+                    "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "obsidian_to_jekyll"
+                  "title": "Welcome"
                 }
               },
               {
@@ -282,7 +284,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "18f343e0d2ae11b8",
+  "active": "3a52283e0942e8ae",
   "lastOpenFiles": [
     "scripts/obsidian_to_jekyll.py",
     "_layouts/single.html",

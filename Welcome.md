@@ -6,11 +6,14 @@ So this is for me. Micah. Not published
 we HAVE to keep index (and tags and categories) at the root. not in published. ik, its annoying.
 
 ## Todo:
+* MOST IMPORTANT !!! CREATE SUBFOLDER INDEXES
+	* allegedly MM is supposed to do that for me with the categories page, but it isnt. CLicking on Subfolder in NewNote goes to 404. Either in python create an archive index.md for each new subdir, or get MM working
 * remove published, keep everything in vault/
 	* add publish: true to metadata.
 * add lunr.js for search, or ANY other plugin.
 	* https://github.com/christian-fei/Simple-Jekyll-Search
 * add Edited dates to files somehow?
+* custom 404 page
 
 looks like i can also add my own custom theme edits?
 assets/css/custom.scss
