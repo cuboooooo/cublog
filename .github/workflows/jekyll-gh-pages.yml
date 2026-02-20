@@ -29,21 +29,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # this lets us use git history in our py script below.
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        # man idk what im doing
-      - name: Run Obsidian Conversion Script
-        run: |
-          python3 scripts/obsidian_to_jekyll.py
-          
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+          fetch-depth: 0
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./
-          destination: ./_site
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Run Obsidian Conversion Script
+        run: python3 scripts/obsidian_to_jekyll.py
+
+      - name: Build site
+        run: bundle exec jekyll build --destination ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   # Deployment job
   deploy:
