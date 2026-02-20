@@ -91,20 +91,23 @@ def convert_file(filepath):
     content = re.sub(r"!\[\[([^\]]+)\]\]", replace_image, content)
     # very similar, [[MATCH1|OPTIONALMATCH2]]
     content = re.sub(r"\[\[([^|\]]+)(?:\|([^\]]+))?\]\]"
-, replace_wikilink, content) # if a link doesnt have a | i might be screwed.
+, replace_wikilink, content) 
+
+    # apparently i dont need to add the "last_modified_at" cuz the plugin will do it for me? alr
     first_commit = get_first_commit_date(filepath)
-    last_commit = get_last_commit_date(filepath)
+    #last_commit = get_last_commit_date(filepath)
     publish_date = iso_to_date(first_commit)
-    modified_date = iso_to_date(last_commit)
+    #modified_date = iso_to_date(last_commit)
     title = Path(filepath).stem
     slug = slugify(title)
 
     # add frontmatter
+    #last_modified_at: {modified_date}
+
     content = f"""---
-layout: post
+layout: single
 title: "{title}"
 date: {publish_date}
-last_modified_at: {modified_date}
 tags: []
 ---
 

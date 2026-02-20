@@ -1,6 +1,11 @@
 title: My Blog  
 description: My thoughts and projects  
-theme: minima  
+#theme: minima  
+remote_theme: mmistakes/minimal-mistakes
+
+minimal-mistakes-skin: neon
+search: true
+breadcrumbs: true
 
 url: "https://blog.mlhost.org"
 baseurl: ""
@@ -9,6 +14,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 
 plugins:  
+- jekyll-include-cache
 - jekyll-seo-tag
 - jekyll-last-modified-at
 
