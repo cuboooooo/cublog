@@ -32,18 +32,6 @@
                 "state": {
                   "type": "vscode-editor",
                   "state": {
-                    "file": "scripts/obsidian_to_jekyll.py"
-                  },
-                  "icon": "lucide-file",
-                  "title": "obsidian_to_jekyll"
-                }
-              },
-              {
-                "id": "5917fa456721369c",
-                "type": "leaf",
-                "state": {
-                  "type": "vscode-editor",
-                  "state": {
                     "file": "_config.yml"
                   },
                   "icon": "lucide-file",
@@ -51,7 +39,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "0276d871338ed942",
@@ -268,27 +256,27 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "5917fa456721369c",
+  "active": "635a2d71c3177056",
   "lastOpenFiles": [
-    "published/subfolder ???/NEW NOTE.md",
-    "_config.yml",
-    "index.md",
     "scripts/obsidian_to_jekyll.py",
     "_posts/subfolder ???/NEW NOTE.md",
+    "index.md",
+    "_posts/2026-02-19-home2.md",
+    "_posts/This is a note!.md",
+    "_posts/2026-02-19-test1.md",
+    "_posts/2026-02-19-test 2.md",
+    "_config.yml",
+    "published/subfolder ???/NEW NOTE.md",
     "_posts/subfolder ???/ANOTHER ONE??.md",
     "published/subfolder ???/ANOTHER ONE??.md",
-    "_posts/2026-02-19-home2.md",
     "Welcome.md",
     "README.md",
     "this-is-a-note!.md",
     "published/This is a note!.md",
-    "_posts/This is a note!.md",
     "vault/This is another note!.md",
     "published/this-is-a-note!|this-is-a-note!.md",
     "_posts/subfolder ???",
     "published/subfolder ???",
-    "_posts/2026-02-19-test 2.md",
-    "_posts/2026-02-19-test1.md",
     "scripts",
     "Note 2.md",
     "Note 3.md",
