@@ -1,7 +1,7 @@
 ---
 layout: home
 title: home
+author_profile: "true"
 ---
-
-should i add search??
+This page is a HEAVY work in progress. In other words, you shouldnt be here.
 

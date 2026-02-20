@@ -44,12 +44,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Welcome.md",
+                    "file": "index.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Welcome"
+                  "title": "index"
                 }
               },
               {
@@ -284,17 +284,18 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3a52283e0942e8ae",
+  "active": "18f343e0d2ae11b8",
   "lastOpenFiles": [
+    "index.md",
+    "categories.md",
+    "Welcome.md",
     "scripts/obsidian_to_jekyll.py",
     "_layouts/single.html",
     "vault/this is a WIP.md",
     "_config.yml",
     "_posts/2026-02-19-this-is-a-note.md",
-    "Welcome.md",
     "_layouts/Untitled.md",
     "_posts/subfolder ???/2026-02-19-new-note.md",
-    "categories.md",
     "_posts/subfolder ???/2026-02-19-another-one.md",
     "tags.md",
     "assets/css/custom.scss",
@@ -304,7 +305,6 @@
     "_posts/This is a note!.md",
     "_posts/subfolder ???/NEW NOTE.md",
     "_posts/subfolder ???/ANOTHER ONE??.md",
-    "index.md",
     "README.md",
     "_posts/2026-02-19-home2.md",
     "_posts/2026-02-19-test1.md",

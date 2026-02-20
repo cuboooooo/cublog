@@ -8,6 +8,7 @@ we HAVE to keep index (and tags and categories) at the root. not in published. i
 ## Todo:
 * MOST IMPORTANT !!! CREATE SUBFOLDER INDEXES
 	* allegedly MM is supposed to do that for me with the categories page, but it isnt. CLicking on Subfolder in NewNote goes to 404. Either in python create an archive index.md for each new subdir, or get MM working
+* make the home an author page or something
 * remove published, keep everything in vault/
 	* add publish: true to metadata.
 * add lunr.js for search, or ANY other plugin.
