@@ -42,14 +42,12 @@
                 "id": "3a52283e0942e8ae",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "vscode-editor",
                   "state": {
-                    "file": "_posts/subfolder ???/2026-02-19-new-note.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "scripts/obsidian_to_jekyll.py"
                   },
                   "icon": "lucide-file",
-                  "title": "2026-02-19-new-note"
+                  "title": "obsidian_to_jekyll"
                 }
               },
               {
@@ -284,14 +282,14 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3a52283e0942e8ae",
+  "active": "18f343e0d2ae11b8",
   "lastOpenFiles": [
     "scripts/obsidian_to_jekyll.py",
+    "vault/This is another note!.md",
+    "_posts/subfolder ???/2026-02-19-new-note.md",
     "_config.yml",
     "categories.md",
-    "vault/This is another note!.md",
     "_posts/subfolder ???/2026-02-19-another-one.md",
-    "_posts/subfolder ???/2026-02-19-new-note.md",
     "_posts/2026-02-19-this-is-a-note.md",
     "Welcome.md",
     "tags.md",

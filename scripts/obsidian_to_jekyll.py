@@ -101,13 +101,14 @@ def convert_file(filepath):
     slug = slugify(title)
 
     # add frontmatter
-    #last_modified_at: {modified_date}
+    # {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }}
+    # possible to add date.
 
     content = f"""---
 layout: single
 title: "{title}"
 date: {publish_date}
-last_modified_at: {{ page.last_modified_at | date: '%B %d, %Y'}}
+last_modified_at: {{ page.last_modified_at }}
 tags: []
 ---
 
