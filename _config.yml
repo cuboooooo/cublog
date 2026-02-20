@@ -6,8 +6,8 @@ remote_theme: mmistakes/minimal-mistakes
 ### MINIMAL MISTAKES STUFF
 
 minimal_mistakes_skin: neon
-#sass:
-#	style: compressed
+sass:
+	style: compressed
 
 search: true
 breadcrumbs: true

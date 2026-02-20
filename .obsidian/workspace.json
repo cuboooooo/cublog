@@ -42,14 +42,12 @@
                 "id": "3a52283e0942e8ae",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "vscode-editor",
                   "state": {
-                    "file": "published/code/just a dracula test.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "assets/css/custom.scss"
                   },
                   "icon": "lucide-file",
-                  "title": "just a dracula test"
+                  "title": "custom"
                 }
               },
               {
@@ -286,8 +284,9 @@
   },
   "active": "3a52283e0942e8ae",
   "lastOpenFiles": [
-    "assets/css/custom.scss",
+    "_config.yml",
     "published/code/just a dracula test.md",
+    "assets/css/custom.scss",
     "published/code",
     "published/subfolder ???/ANOTHER ONE??.md",
     "index.md",
@@ -296,7 +295,6 @@
     "scripts/obsidian_to_jekyll.py",
     "_layouts/single.html",
     "vault/this is a WIP.md",
-    "_config.yml",
     "_posts/2026-02-19-this-is-a-note.md",
     "_layouts/Untitled.md",
     "_posts/subfolder ???/2026-02-19-new-note.md",
