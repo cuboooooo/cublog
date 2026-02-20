@@ -30,6 +30,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        # man idk what im doing
+      - name: Run Obsidian Conversion Script
+        run: |
+          python3 scripts/obsidian_to_jekyll.py
+          
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
