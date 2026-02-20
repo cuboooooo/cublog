@@ -42,12 +42,14 @@
                 "id": "3a52283e0942e8ae",
                 "type": "leaf",
                 "state": {
-                  "type": "vscode-editor",
+                  "type": "markdown",
                   "state": {
-                    "file": "_config.yml"
+                    "file": "Welcome.md",
+                    "mode": "source",
+                    "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "_config"
+                  "title": "Welcome"
                 }
               },
               {
@@ -282,8 +284,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "18f343e0d2ae11b8",
+  "active": "3a52283e0942e8ae",
   "lastOpenFiles": [
+    "Gemfile",
     "_posts/subfolder/2026-02-20-new-note.md",
     "_posts/subfolder/2026-02-20-another-one.md",
     "_posts/code/2026-02-20-just-a-dracula-test.md",
@@ -319,7 +322,6 @@
     "_posts/2026-02-19-test 2.md",
     "this-is-a-note!.md",
     "published/this-is-a-note!|this-is-a-note!.md",
-    "Note 2.md",
     "assets/image.jpg"
   ]
 }
