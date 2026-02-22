@@ -18,10 +18,10 @@
                 "state": {
                   "type": "vscode-editor",
                   "state": {
-                    "file": "assets/css/main.scss"
+                    "file": "_config.yml"
                   },
                   "icon": "lucide-file",
-                  "title": "main"
+                  "title": "_config"
                 }
               },
               {
@@ -30,7 +30,7 @@
                 "state": {
                   "type": "vscode-editor",
                   "state": {
-                    "file": "assets/css/_custom.scss"
+                    "file": "_sass/_custom.scss"
                   },
                   "icon": "lucide-file",
                   "title": "_custom"
@@ -269,9 +269,13 @@
   },
   "active": "aa9ff586335da6b0",
   "lastOpenFiles": [
-    "published/code/just a dracula test.md",
-    "assets/css/_custom.scss",
+    "_data/navigation.yml",
     "assets/css/main.scss",
+    "_data",
+    "_sass/_custom.scss",
+    "_sass/Untitled.md",
+    "_sass",
+    "published/code/just a dracula test.md",
     "scripts/obsidian_to_jekyll.py",
     "Obsidian Note (TODO).md",
     "index.md",
@@ -289,9 +293,7 @@
     "_site/~$feed.xml",
     "_site/vault/this is a WIP.md",
     "_site/categories/index.html",
-    "_site/this-is-a-note/index.html",
     "_posts/2026-02-19-this-is-a-note.md",
-    "_site/subfolder/new-note/index.html",
     "_posts/code/2026-02-20-just-a-dracula-test.md",
     "_posts/subfolder/2026-02-19-another-one.md",
     "assets/image.jpg",
@@ -304,7 +306,6 @@
     "_site/README.md",
     "README.md",
     "_posts/subfolder/2026-02-20-new-note.md",
-    "categories.md",
-    "_layouts/Untitled.md"
+    "categories.md"
   ]
 }

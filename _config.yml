@@ -37,7 +37,6 @@ plugins:
 last-modified-at:
   date-format: '%B %-d, %Y'
 
-# truthfully idk what this is doing.
 collections:
   vault:
     output: false
