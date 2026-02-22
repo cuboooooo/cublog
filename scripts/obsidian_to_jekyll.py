@@ -64,7 +64,7 @@ def replace_wikilink(match):
     if parts and parts[0] == "published":
         parts = parts[1:]
     else:
-        print("::error::ERROR: A WIKILINK IS NOT PROPERLY ROOTED, WILL NOT WORK")
+        print("::error:: A WIKILINK IS NOT PROPERLY ROOTED, WILL NOT WORK")
         # sys.exit(0) 
     
     cleaned_path = Path(*parts)
@@ -151,8 +151,6 @@ show_last_modified_at: true
 
 
 def process_all():
-    print("::warning:: just testing warning flags lol")
-    print("::error:: this is just a test")
     for root, dirs, files in os.walk(PUBLISHED_DIR):
         for file in files:
             # if file.endswith(".md"): # do we want this??

@@ -30,14 +30,12 @@
                 "id": "3a52283e0942e8ae",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "vscode-editor",
                   "state": {
-                    "file": "Obsidian Note (TODO).md",
-                    "mode": "source",
-                    "source": false
+                    "file": "assets/css/main.scss"
                   },
                   "icon": "lucide-file",
-                  "title": "Obsidian Note (TODO)"
+                  "title": "main"
                 }
               },
               {
@@ -55,7 +53,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "0276d871338ed942",
@@ -272,12 +270,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "57a69162970df692",
+  "active": "3a52283e0942e8ae",
   "lastOpenFiles": [
+    "assets/css/_custom.scss",
+    "scripts/obsidian_to_jekyll.py",
+    "Obsidian Note (TODO).md",
     "index.md",
     "404.md",
-    "Obsidian Note (TODO).md",
-    "scripts/obsidian_to_jekyll.py",
     "published/code/just a dracula test.md",
     "published/subfolder/NEW NOTE.md",
     "published/subfolder/ANOTHER ONE??.md",
@@ -310,7 +309,6 @@
     "README.md",
     "_posts/subfolder/2026-02-20-new-note.md",
     "categories.md",
-    "_layouts/Untitled.md",
-    "_posts/This is a note!.md"
+    "_layouts/Untitled.md"
   ]
 }
