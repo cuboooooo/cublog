@@ -1,6 +1,6 @@
 
-[[NEW NOTE|NEW NOTE]]
+[[published/subfolder/NEW NOTE|NEW NOTE]]
 oh yeah take that
 
-[[NEW NOTE]]
+[[published/subfolder/NEW NOTE]]
 no alias!!

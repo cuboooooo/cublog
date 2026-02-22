@@ -54,21 +54,32 @@ def replace_wikilink(match):
 
     path = Path(file)
     # removed published/
+
+    # UGHHH new little hitch.
+    # so if a/b/note1 links to a/b/note2
+    # its a RELATIVE PATH so its only [[note2]]
+    # we need to make sure that it includes the path down to published. 
+
     parts = list(path.parts)
+    print(parts)
     if parts and parts[0] == "published":
         parts = parts[1:]
+    else:
+        print("::error::ERROR: A WIKILINK IS NOT PROPERLY ROOTED, WILL NOT WORK")
+        # sys.exit(0) 
     
     cleaned_path = Path(*parts)
 
     slug = slugify(cleaned_path.stem)
 
     parent = cleaned_path.parent
+    print(parent)
     if parent == Path("."):
         url = f"/{slug}/"
     else:
         categories = "/".join(slugify(p) for p in parent.parts) # add each slugged directory
         url = f"/{categories}/{slug}/"
-
+    print(url)
     display = alias if alias else cleaned_path.stem
     return f"[{display}]({url})"
 

@@ -5,9 +5,13 @@ So this is for me. Micah. Not published
 
 we HAVE to keep index (and tags and categories) at the root. not in published. ik, its annoying.
 
-you need to ujpdate the Gemfile every time you wanna add a new plugin i guess
+### EVERY LINK NEEDS TO BE ROOTED IN PUBLISHED!!! (I believe I have it set up automatically now)
+
+
+you need to update the Gemfile every time you wanna add a new plugin i guess
 
 ## Todo:
+* i dont think links are being made right.
 * MOST IMPORTANT !!! CREATE SUBFOLDER INDEXES
 	* allegedly MM is supposed to do that for me with the categories page, but it isnt. CLicking on Subfolder in NewNote goes to 404. Either in python create an archive index.md for each new subdir, or get MM working
 * make the home an author page or something
