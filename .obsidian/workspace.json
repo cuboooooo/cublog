@@ -10,7 +10,7 @@
           {
             "id": "5644bf5d066dcee0",
             "type": "tabs",
-            "dimension": 74.95256166982922,
+            "dimension": 62.14421252371917,
             "children": [
               {
                 "id": "88d890ffbf5df1e8",
@@ -42,12 +42,14 @@
                 "id": "3a52283e0942e8ae",
                 "type": "leaf",
                 "state": {
-                  "type": "vscode-editor",
+                  "type": "markdown",
                   "state": {
-                    "file": "_config.yml"
+                    "file": "index.md",
+                    "mode": "source",
+                    "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "_config"
+                  "title": "index"
                 }
               },
               {
@@ -70,7 +72,7 @@
           {
             "id": "0276d871338ed942",
             "type": "tabs",
-            "dimension": 25.047438330170777,
+            "dimension": 37.85578747628083,
             "children": [
               {
                 "id": "18f343e0d2ae11b8",
@@ -174,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 214.5
   },
   "right": {
     "id": "890764583fd9f6eb",
@@ -282,43 +284,44 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "3a52283e0942e8ae",
+  "active": "18f343e0d2ae11b8",
   "lastOpenFiles": [
+    "index.md",
+    "_site/subfolder/another-one/index.html",
+    "_site/index.html",
+    "_site/~$feed.xml",
+    "_site/vault/this is a WIP.md",
+    "_site/categories/index.html",
+    "_site/this-is-a-note/index.html",
+    "scripts/obsidian_to_jekyll.py",
+    "_posts/subfolder/2026-02-19-new-note.md",
+    "_posts/subfolder/2026-02-20-another-one.md",
+    "_posts/2026-02-19-this-is-a-note.md",
+    "_site/subfolder/new-note/index.html",
+    "_site/subfolder/new-note",
+    "_site/subfolder/another-one",
+    "_site/subfolder",
+    "_posts/code/2026-02-20-just-a-dracula-test.md",
+    "_posts/subfolder/2026-02-19-another-one.md",
+    "assets/image.jpg",
+    "_site/published/subfolder/NEW NOTE.md",
+    "_site/published/subfolder/ANOTHER ONE??.md",
+    "_site/published/code/just a dracula test.md",
+    "_site/published/This is a note!.md",
+    "_site/assets/image.jpg",
+    "_site/Welcome.md",
+    "_site/README.md",
     "tags.md",
     "README.md",
-    "index.md",
-    "assets/css/main.scss",
-    "assets/css/_custom.scss",
-    "_posts/2026-02-19-this-is-a-note.md",
-    "_posts/subfolder/2026-02-19-new-note.md",
-    "scripts/obsidian_to_jekyll.py",
-    "_posts/subfolder/2026-02-19-another-one.md",
-    "_posts/code/2026-02-20-just-a-dracula-test.md",
-    "_posts/subfolder/2026-02-20-another-one.md",
-    "Gemfile",
     "Welcome.md",
     "_posts/subfolder/2026-02-20-new-note.md",
-    "_posts/code",
-    "_config.yml",
-    "assets/css/custom.scss",
     "published/code/just a dracula test.md",
     "published/subfolder/NEW NOTE.md",
     "published/subfolder/ANOTHER ONE??.md",
     "published/This is a note!.md",
-    "published/code",
     "categories.md",
-    "_layouts/single.html",
     "vault/this is a WIP.md",
     "_layouts/Untitled.md",
-    "assets/css",
-    "_posts/This is a note!.md",
-    "_posts/subfolder ???/NEW NOTE.md",
-    "_posts/subfolder ???/ANOTHER ONE??.md",
-    "_posts/2026-02-19-home2.md",
-    "_posts/2026-02-19-test1.md",
-    "_posts/2026-02-19-test 2.md",
-    "this-is-a-note!.md",
-    "published/this-is-a-note!|this-is-a-note!.md",
-    "assets/image.jpg"
+    "_posts/This is a note!.md"
   ]
 }
