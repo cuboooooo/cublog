@@ -61,7 +61,6 @@ def replace_wikilink(match):
     # we need to make sure that it includes the path down to published. 
 
     parts = list(path.parts)
-    print(parts)
     if parts and parts[0] == "published":
         parts = parts[1:]
     else:
@@ -73,13 +72,11 @@ def replace_wikilink(match):
     slug = slugify(cleaned_path.stem)
 
     parent = cleaned_path.parent
-    print(parent)
     if parent == Path("."):
         url = f"/{slug}/"
     else:
         categories = "/".join(slugify(p) for p in parent.parts) # add each slugged directory
         url = f"/{categories}/{slug}/"
-    print(url)
     display = alias if alias else cleaned_path.stem
     return f"[{display}]({url})"
 
@@ -154,6 +151,8 @@ show_last_modified_at: true
 
 
 def process_all():
+    print("::warning:: just testing warning flags lol")
+    print("::error:: this is just a test")
     for root, dirs, files in os.walk(PUBLISHED_DIR):
         for file in files:
             # if file.endswith(".md"): # do we want this??

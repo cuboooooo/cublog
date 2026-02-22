@@ -3,7 +3,7 @@ Ok so this is my blog??? idk man lets test it.
 
 So this is for me. Micah. Not published
 
-we HAVE to keep index (and tags and categories) at the root. not in published. ik, its annoying.
+we HAVE to keep index (and tags and categories and 404) at the root. not in published. ik, its annoying.
 
 ### EVERY LINK NEEDS TO BE ROOTED IN PUBLISHED!!! (I believe I have it set up automatically now)
 
@@ -11,16 +11,10 @@ we HAVE to keep index (and tags and categories) at the root. not in published. i
 you need to update the Gemfile every time you wanna add a new plugin i guess
 
 ## Todo:
-* i dont think links are being made right.
 * MOST IMPORTANT !!! CREATE SUBFOLDER INDEXES
 	* allegedly MM is supposed to do that for me with the categories page, but it isnt. CLicking on Subfolder in NewNote goes to 404. Either in python create an archive index.md for each new subdir, or get MM working
-* make the home an author page or something
 * remove published, keep everything in vault/
 	* add publish: true to metadata.
-* add lunr.js for search, or ANY other plugin.
-	* https://github.com/christian-fei/Simple-Jekyll-Search
-* add Edited dates to files somehow?
-* custom 404 page
 
 looks like i can also add my own custom theme edits?
 assets/css/custom.scss
@@ -48,14 +42,3 @@ and minimal mistakes automatically loads that i guess.
 
 minimal mistakes actually has a LOT to offer.
 splash landing pages, archive layouts,
-
-
-put this in layouts single maybe 
-```html
-{% if page.last_modified_at %}  
-<p class="page__meta">  
-Updated {{ page.last_modified_at | date: "%B %-d, %Y" }}  
-</p>  
-{% endif %}
-```
-yeah idk
